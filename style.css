@@ -6,4 +6,42 @@ body {
 header {
   padding: 25px 0;
   background-color: #212529;
+}
+@media (min-width: 768px) {
+  header .menu .imgbox {
+    width: 140px;
+  }
+  header .menu nav a {
+    display: none;
+  }
+  header .menu .btn {
+    border: 0.5px solid white;
+    border-radius: 10px;
+    color: white;
+  }
+}
+@media (min-width: 768px) {
+  header .menu .imgbox {
+    width: 140px;
+  }
+  header .menu nav a {
+    display: none;
+  }
+  header .menu .btn {
+    border: 0.5px solid white;
+    border-radius: 10px;
+    color: white;
+  }
+}
+@media (min-width: 992px) {
+  header .menu .imgbox {
+    width: 140px;
+  }
+  header .menu nav a {
+    font-size: 18px;
+    margin-right: 27px;
+  }
+  header .menu .btn {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
