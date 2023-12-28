@@ -15,45 +15,19 @@ header .menu nav a {
   color: white;
   margin-right: 27px;
 }
-header .menu .nobtn {
+header .menu .btn {
   display: none;
-}
-@media (min-width: 576px) {
-  header .menu .imgbox {
-    width: 140px;
-  }
-  header .menu .nonav a {
-    display: none;
-  }
-  header .menu .btn {
-    border: 1px solid white;
-    border-radius: 10px;
-    color: white;
-  }
-}
-@media (min-width: 768px) {
-  header .menu .imgbox {
-    width: 140px;
-  }
-  header .menu .btn {
-    border: 1px solid white;
-    border-radius: 10px;
-    color: white;
-  }
-  header .menu .nonav a {
-    display: none;
-  }
 }
 @media (min-width: 992px) {
   header .menu .imgbox {
     width: 140px;
   }
-  header .menu nav a {
+  header nav a {
     font-size: 18px;
     margin-right: 27px;
     color: white;
   }
-  header .menu .nobtn {
+  header nav .btn {
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */
