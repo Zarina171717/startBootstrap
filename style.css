@@ -7,15 +7,26 @@ header {
   padding: 25px 0;
   background-color: #212529;
 }
-@media (min-width: 768px) {
+header .menu .imgbox {
+  width: 140px;
+}
+header .menu nav a {
+  font-size: 18px;
+  color: white;
+  margin-right: 27px;
+}
+header .menu .nobtn {
+  display: none;
+}
+@media (min-width: 576px) {
   header .menu .imgbox {
     width: 140px;
   }
-  header .menu nav a {
+  header .menu .nonav a {
     display: none;
   }
   header .menu .btn {
-    border: 0.5px solid white;
+    border: 1px solid white;
     border-radius: 10px;
     color: white;
   }
@@ -24,13 +35,13 @@ header {
   header .menu .imgbox {
     width: 140px;
   }
-  header .menu nav a {
-    display: none;
-  }
   header .menu .btn {
-    border: 0.5px solid white;
+    border: 1px solid white;
     border-radius: 10px;
     color: white;
+  }
+  header .menu .nonav a {
+    display: none;
   }
 }
 @media (min-width: 992px) {
@@ -40,8 +51,9 @@ header {
   header .menu nav a {
     font-size: 18px;
     margin-right: 27px;
+    color: white;
   }
-  header .menu .btn {
+  header .menu .nobtn {
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */
