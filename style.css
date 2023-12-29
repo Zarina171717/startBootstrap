@@ -6,12 +6,14 @@ body {
 header {
   padding: 25px 0;
   background-color: #212529;
+  position: relative;
+  z-index: 1;
 }
 header .menu .imgbox {
   width: 140px;
 }
 header .menu nav a {
-  font-size: 18px;
+  font-size: 17px;
   color: white;
   margin-right: 27px;
 }
@@ -26,8 +28,14 @@ header .menu .btn {
     display: none;
   }
   header .menu .btn {
-    border: 1px solid white;
+    display: flex;
+    border: 0.5px solid #999c9e;
     border-radius: 10px;
-    color: white;
+    color: #999c9e;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  header .menu .btn i {
+    margin-left: 5px;
   }
 }/*# sourceMappingURL=style.css.map */
