@@ -18,16 +18,16 @@ header .menu nav a {
 header .menu .btn {
   display: none;
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   header .menu .imgbox {
     width: 140px;
   }
-  header nav a {
-    font-size: 18px;
-    margin-right: 27px;
-    color: white;
-  }
-  header nav .btn {
+  header .menu nav {
     display: none;
+  }
+  header .menu .btn {
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
   }
 }/*# sourceMappingURL=style.css.map */
