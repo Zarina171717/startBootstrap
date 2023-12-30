@@ -16,6 +16,10 @@ header .menu nav a {
   font-size: 17px;
   color: white;
   margin-right: 27px;
+  transition: 0.25s;
+}
+header .menu nav a:hover {
+  color: #e3ae11;
 }
 header .menu .btn {
   display: none;
