@@ -6,13 +6,15 @@
     .box
         h1
             font-size: 40px
-            color: #ffff
             margin-top: 75px
         h2
             font-size: 90px
-            color: #ffff
             font-weight: 700
             margin: 35px 0 60px
+        h1,h2
+            color: #ffff
+            &:hover
+                cursor: auto
         .btn
             padding: 20px 50px
             color: #ffff
@@ -22,6 +24,9 @@
             border-radius: 7px
             &:hover
                 background-color: #d9aa00
+            h3
+                &:hover
+                    cursor: pointer
     @media (max-width: 768px)
         padding: 100px 0
         background-image: url("assets/header-bg.jpg")

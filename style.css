@@ -6,11 +6,12 @@ body {
 header {
   padding: 25px 0;
   background-color: #212529;
-  position: relative;
-  z-index: 1;
 }
 header .menu .imgbox {
   width: 140px;
+}
+header .menu .imgbox img:hover {
+  cursor: pointer;
 }
 header .menu nav a {
   font-size: 17px;
@@ -20,6 +21,7 @@ header .menu nav a {
 }
 header .menu nav a:hover {
   color: #e3ae11;
+  cursor: pointer;
 }
 header .menu .btn {
   display: none;
@@ -52,14 +54,18 @@ header .menu .btn {
 }
 #welcome .box h1 {
   font-size: 40px;
-  color: white;
   margin-top: 75px;
 }
 #welcome .box h2 {
   font-size: 90px;
-  color: white;
   font-weight: 700;
   margin: 35px 0 60px;
+}
+#welcome .box h1, #welcome .box h2 {
+  color: white;
+}
+#welcome .box h1:hover, #welcome .box h2:hover {
+  cursor: auto;
 }
 #welcome .box .btn {
   padding: 20px 50px;
@@ -71,6 +77,9 @@ header .menu .btn {
 }
 #welcome .box .btn:hover {
   background-color: #d9aa00;
+}
+#welcome .box .btn h3:hover {
+  cursor: pointer;
 }
 @media (max-width: 768px) {
   #welcome {
