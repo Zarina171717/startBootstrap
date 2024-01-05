@@ -110,4 +110,43 @@ header .menu .btn {
   #welcome .box .btn:hover {
     background-color: #d9aa00;
   }
+}
+
+#services {
+  padding: 100px 0;
+}
+#services .box {
+  text-align: center;
+}
+#services .box h1 {
+  font-size: 38px;
+  font-weight: 700;
+}
+#services .box h3 {
+  margin: 25px 0 60px;
+}
+#services .box h3, #services .box h4 {
+  font-size: 19px;
+  color: #6f7783;
+}
+#services .box h4 {
+  width: 380px;
+  line-height: 1.4;
+}
+#services .box .minibox {
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  background-color: #ffc800;
+  display: inline-block;
+}
+#services .box .minibox .icon i {
+  color: white;
+  font-size: 60px;
+  margin: 35px 0;
+}
+#services .box h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 18px 0 28px;
 }/*# sourceMappingURL=style.css.map */
