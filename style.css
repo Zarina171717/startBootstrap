@@ -47,4 +47,70 @@ header .menu .btn {
   header .menu .btn i {
     margin-left: 5px;
   }
+}
+
+#welcome {
+  padding: 200px 0;
+  background-image: url("assets/header-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+#welcome .box h1 {
+  font-size: 40px;
+  margin-top: 75px;
+}
+#welcome .box h2 {
+  font-size: 90px;
+  font-weight: 700;
+  margin: 35px 0 60px;
+}
+#welcome .box h1, #welcome .box h2 {
+  color: white;
+}
+#welcome .box h1:hover, #welcome .box h2:hover {
+  cursor: auto;
+}
+#welcome .box .btn {
+  padding: 20px 50px;
+  color: white;
+  background-color: #ffc800;
+  font-weight: 600;
+  font-size: 19px;
+  border-radius: 7px;
+}
+#welcome .box .btn:hover {
+  background-color: #d9aa00;
+}
+#welcome .box .btn h3:hover {
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  #welcome {
+    padding: 100px 0;
+    background-image: url("assets/header-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+  }
+  #welcome .box h1 {
+    font-size: 30px;
+    color: white;
+    margin-top: 75px;
+  }
+  #welcome .box h2 {
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    margin: 25px 0 40px;
+  }
+  #welcome .box .btn {
+    padding: 20px 50px;
+    color: white;
+    background-color: #ffc800;
+    font-weight: 600;
+    font-size: 19px;
+    border-radius: 7px;
+  }
+  #welcome .box .btn:hover {
+    background-color: #d9aa00;
+  }
 }/*# sourceMappingURL=style.css.map */
