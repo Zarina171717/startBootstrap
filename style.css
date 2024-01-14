@@ -120,4 +120,46 @@ header .menu .btn {
   #welcome .box .btn h3:hover {
     cursor: pointer;
   }
+}
+
+#services {
+  padding: 100px 0;
+}
+#services .box {
+  text-align: center;
+}
+#services .box h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#services .box h3 {
+  margin: 25px 0 60px;
+}
+#services .box h3, #services .box h4 {
+  font-size: 20px;
+  color: #6f7783;
+}
+#services .box h1:hover, #services .box h2:hover, #services .box h3:hover, #services .box h4:hover {
+  cursor: auto;
+}
+#services .box .minibox {
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  background-color: #ffc800;
+  display: inline-block;
+}
+#services .box .minibox .icon {
+  color: white;
+  font-size: 60px;
+  margin: 35px 0;
+}
+#services .box .textbox h2 {
+  font-size: 31px;
+  font-weight: 700;
+  margin: 16px 0 24px;
+}
+#services .box .textbox h4 {
+  line-height: 1.4;
+  margin-bottom: 18px;
 }/*# sourceMappingURL=style.css.map */
