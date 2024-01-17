@@ -3,6 +3,10 @@ body {
   font-weight: 500;
 }
 
+.imgbox img {
+  width: 100%;
+}
+
 header {
   padding: 25px 0;
   background-color: #212529;
@@ -186,7 +190,6 @@ header .menu .btn {
 #portfolio .box .imgbox {
   width: 415px;
   height: 310px;
-  display: flex;
   position: relative;
 }
 #portfolio .box .imgbox .hoverbox {
