@@ -14,8 +14,6 @@
             cursor: auto
     .box
         .imgbox
-            width: 415px
-            height: 312px
             position: relative
             .hoverbox
                 width: 100%
@@ -44,3 +42,47 @@
                 font-size: 26px
                 font-weight: 700
                 margin-bottom: 12px
+    @media (max-width: 576px)
+        padding: 100px 0
+        background-color: #f8f9fa
+        h1
+            font-size: 40px
+            font-weight: 700
+        h3,h4
+            font-size: 20px
+            color: #6f7783
+        h3
+            margin: 23px 0 63px
+        h1,h2,h3,h4
+            &:hover
+                cursor: auto
+        .box
+            .imgbox
+                position: relative
+                .hoverbox
+                    width: 100%
+                    height: 100%
+                    background-color: #f5be0c
+                    opacity: 0
+                    position: absolute
+                    top: 0
+                    left: 0
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    transition: 0.5s
+                    &:hover
+                        opacity: 0.9
+                        cursor: pointer
+                    .icon
+                        color: #ffff
+                        font-size: 60px
+            .textbox
+                text-align: center
+                background-color: #ffff
+                padding: 28px 0
+                margin-bottom: 25px
+                h2
+                    font-size: 26px
+                    font-weight: 700
+                    margin-bottom: 12px
