@@ -3,8 +3,19 @@ body {
   font-weight: 500;
 }
 
+.imgbox {
+  overflow: hidden;
+}
 .imgbox img {
   width: 100%;
+}
+
+section {
+  padding: 90px 0;
+}
+section h1 {
+  font-size: 40px;
+  font-weight: 700;
 }
 
 header {
@@ -61,8 +72,8 @@ header .menu .btn {
   background-size: cover;
 }
 #welcome .box h1 {
-  font-size: 40px;
   margin-top: 55px;
+  font-weight: normal;
 }
 #welcome .box h2 {
   font-size: 90px;
@@ -127,15 +138,8 @@ header .menu .btn {
   }
 }
 
-#services {
-  padding: 100px 0;
-}
 #services .box {
   text-align: center;
-}
-#services .box h1 {
-  font-size: 40px;
-  font-weight: 700;
 }
 #services .box h3 {
   margin: 25px 0 60px;
@@ -170,12 +174,7 @@ header .menu .btn {
 }
 
 #portfolio {
-  padding: 100px 0;
   background-color: #f8f9fa;
-}
-#portfolio h1 {
-  font-size: 40px;
-  font-weight: 700;
 }
 #portfolio h3, #portfolio h4 {
   font-size: 20px;
@@ -278,4 +277,32 @@ header .menu .btn {
     font-weight: 700;
     margin-bottom: 12px;
   }
+}
+
+#about h3 {
+  margin: 24px 0 70px;
+}
+#about h3, #about p {
+  font-size: 19px;
+  color: #6f7783;
+}
+#about .box .minibox .textbox {
+  width: 440px;
+  margin: 0 50px;
+}
+#about .box .minibox .textbox h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#about .box .minibox .textbox p {
+  line-height: 1.4;
+}
+#about .box .minibox .imgbox {
+  border-radius: 50%;
+  border: 6px solid #e9ecef;
+}
+#about .box .minibox .yellowbox h5 {
+  font-size: 21px;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
