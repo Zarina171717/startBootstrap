@@ -286,6 +286,9 @@ header .menu .btn {
   font-size: 19px;
   color: #6f7783;
 }
+#about .box .minibox {
+  display: flex;
+}
 #about .box .minibox .textbox {
   width: 440px;
   margin: 0 50px;
@@ -301,6 +304,8 @@ header .menu .btn {
 #about .box .minibox .imgbox {
   border-radius: 50%;
   border: 6px solid #e9ecef;
+  margin-bottom: 200px;
+  width: 170px;
 }
 #about .box .minibox .yellowbox h5 {
   font-size: 21px;
