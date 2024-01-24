@@ -46,8 +46,8 @@ header .menu .btn {
   display: none;
 }
 @media (max-width: 992px) {
-  header .menu .imgbox {
-    width: 140px;
+  header .menu .imgbox img:hover {
+    cursor: pointer;
   }
   header .menu nav {
     display: none;
@@ -55,7 +55,26 @@ header .menu .btn {
   header .menu .btn {
     display: flex;
     border: 0.5px solid #999c9e;
-    border-radius: 10px;
+    border-radius: 5px;
+    color: #999c9e;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  header .menu .btn i {
+    margin-left: 5px;
+  }
+}
+@media (max-width: 280px) {
+  header .menu .imgbox img:hover {
+    cursor: pointer;
+  }
+  header .menu nav {
+    display: none;
+  }
+  header .menu .btn {
+    display: flex;
+    border: 0.5px solid #999c9e;
+    border-radius: 5px;
     color: #999c9e;
     font-size: 14px;
     font-weight: 700;

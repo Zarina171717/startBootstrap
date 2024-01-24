@@ -25,13 +25,32 @@ header
     @media (max-width: 992px)
         .menu
             .imgbox
-                width: 140px
+                img
+                    &:hover
+                        cursor: pointer
             nav
                 display: none
             .btn
                 display: flex
                 border: 0.5px solid #999c9e
-                border-radius: 10px
+                border-radius: 5px
+                color: #999c9e
+                font-size: 14px
+                font-weight: 700
+                i
+                    margin-left: 5px
+    @media (max-width: 280px)
+        .menu
+            .imgbox
+                img
+                    &:hover
+                        cursor: pointer
+            nav
+                display: none
+            .btn
+                display: flex
+                border: 0.5px solid #999c9e
+                border-radius: 5px
                 color: #999c9e
                 font-size: 14px
                 font-weight: 700
