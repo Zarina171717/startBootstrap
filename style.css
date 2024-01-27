@@ -305,7 +305,6 @@ header .menu .btn {
 }
 #about .box .minibox {
   display: flex;
-  width: 1200px;
 }
 #about .box .minibox .imgbox {
   width: 200px;
