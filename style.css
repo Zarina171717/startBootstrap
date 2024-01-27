@@ -298,6 +298,27 @@ header .menu .btn {
   }
 }
 
-#about .textbox {
-  width: 40%;
+#about .box {
+  display: flex;
+}
+#about .box .imgbox {
+  border-radius: 50%;
+  width: 18%;
+}
+#about .box .textbox {
+  width: 41%;
+}
+#about .box .textbox h2 {
+  font-weight: 700;
+  font-size: 26px;
+}
+#about .box .textbox p {
+  font-size: 19px;
+  color: #6f7783;
+}
+#about .box .imgrght {
+  margin-right: auto;
+}
+#about .box .imgleft {
+  margin-left: auto;
 }/*# sourceMappingURL=style.css.map */
