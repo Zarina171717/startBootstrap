@@ -298,25 +298,6 @@ header .menu .btn {
   }
 }
 
-#about .box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#about .box .minibox {
-  display: flex;
-}
-#about .box .minibox .imgbox {
-  width: 200px;
-  border: 5px solid black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 50%;
-}
-#about .box .minibox .textbox {
+#about .textbox {
   width: 40%;
-}
-#about .box .minibox .textrght {
-  text-align: right;
 }/*# sourceMappingURL=style.css.map */
