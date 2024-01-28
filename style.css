@@ -298,27 +298,42 @@ header .menu .btn {
   }
 }
 
+#about h3 {
+  font-size: 19px;
+  color: #6f7783;
+  margin-top: 24px;
+}
 #about .box {
   display: flex;
+  align-items: center;
+  height: 48%;
 }
 #about .box .imgbox {
   border-radius: 50%;
-  width: 18%;
+  width: 12%;
+  display: inline-block;
 }
 #about .box .textbox {
-  width: 41%;
+  width: 31%;
+  display: inline-block;
 }
 #about .box .textbox h2 {
   font-weight: 700;
   font-size: 26px;
+  margin-bottom: 12px;
 }
 #about .box .textbox p {
   font-size: 19px;
   color: #6f7783;
-}
-#about .box .imgrght {
-  margin-right: auto;
+  line-height: 1.4;
 }
 #about .box .imgleft {
   margin-left: auto;
+}
+#about .box .txtrght {
+  text-align: right;
+  margin-right: 55px;
+}
+#about .box .txtleft {
+  margin-left: 55px;
 }/*# sourceMappingURL=style.css.map */
