@@ -298,7 +298,7 @@ header .menu .btn {
   }
 }
 
-#about h3 {
+#about .text-center h3 {
   font-size: 19px;
   color: #6f7783;
   margin-top: 24px;
@@ -306,12 +306,10 @@ header .menu .btn {
 #about .box {
   display: flex;
   align-items: center;
-  height: 48%;
 }
 #about .box .imgbox {
   border-radius: 50%;
   width: 12%;
-  display: inline-block;
 }
 #about .box .textbox {
   width: 31%;
