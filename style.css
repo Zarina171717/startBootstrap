@@ -14,7 +14,7 @@ section {
   padding: 90px 0;
 }
 section h1 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
 }
 
@@ -302,18 +302,21 @@ header .menu .btn {
   font-size: 19px;
   color: #6f7783;
   margin-top: 24px;
+  margin-bottom: 50px;
 }
 #about .box {
   display: flex;
   align-items: center;
+  margin-bottom: 100px;
 }
 #about .box .imgbox {
   border-radius: 50%;
-  width: 12%;
+  width: 13%;
+  border: 5px solid #e9ecef;
 }
 #about .box .textbox {
   width: 31%;
-  display: inline-block;
+  margin: 0 108px 0 108px;
 }
 #about .box .textbox h2 {
   font-weight: 700;
@@ -325,7 +328,7 @@ header .menu .btn {
   color: #6f7783;
   line-height: 1.4;
 }
-#about .box .imgleft {
+#about .box .imgcntr {
   margin-left: auto;
 }
 #about .box .txtrght {
@@ -334,4 +337,19 @@ header .menu .btn {
 }
 #about .box .txtleft {
   margin-left: 55px;
+}
+#about .bepart {
+  border: 5px solid #e9ecef;
+  border-radius: 50%;
+  padding: 33px 45px;
+  background-color: #ffc800;
+}
+#about .bepart .minibox {
+  width: 70px;
+}
+#about .bepart .minibox h5 {
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+  line-height: 1.4;
 }/*# sourceMappingURL=style.css.map */
