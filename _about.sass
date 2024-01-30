@@ -12,13 +12,13 @@
         .imgbox
             border-radius: 50%
             width: 13%
-            border: 9px solid #e9ecef
+            border: 7px solid #e9ecef
         .textbox
             width: 31%
             margin: 0 108px 0
             h2
                 font-weight: 700
-                font-size: 26px
+                font-size: 25px
                 margin-bottom: 6px
             p
                 font-size: 19px
@@ -43,6 +43,8 @@
                 color: #ffff
                 font-weight: 600
                 line-height: 1.4
+    .yellow
+        justify-content: center
     @media (max-width: 992px)
         .box
             align-items: flex-start
@@ -57,41 +59,32 @@
                 h5
                     font-size: 14px
                     line-height: 1.2
+        .yellow
+            justify-content: center
     @media (max-width: 768px)
         .box
             align-items: flex-start
-            margin-bottom: 100px
+            margin-bottom: 60px
+            flex-direction: row-reverse
             .imgbox
                 width: 16%
+                margin: 0
             .textbox
-                width: 31%
-                margin: 0 108px 0
-                flex-direction: row-reverse
-                h2
-                    font-weight: 700
-                    font-size: 24px
-                    margin-bottom: 6px
-                p
-                    font-size: 19px
-                    color: #6f7783
-                    line-height: 1.4
-            .imgcntr
-                margin-left: auto
+                width: 75%
+                margin: auto
             .txtrght
-                text-align: right
-                margin-right: 55px
-                flex-direction: row
+                text-align: start
             .txtleft
-                margin-left: 55px
+                text-align: start
+        .right
+            flex-direction: row
         .bepart
-            border: 5px solid #e9ecef
-            border-radius: 50%
-            padding: 33px 45px
-            background-color: #ffc800
+            justify-content: flex-start
+            padding: 15px 18px
             .minibox
-                width: 70px
+                width: 35px
                 h5
-                    font-size: 22px
-                    color: #ffff
-                    font-weight: 600
-                    line-height: 1.4
+                    font-size: 12px
+                    line-height: 1.2
+        .yellow
+            justify-content: flex-start
