@@ -391,7 +391,7 @@ header .menu .btn {
     margin: 0;
   }
   #about .box .textbox {
-    width: 75%;
+    width: 74%;
     margin: auto;
   }
   #about .box .txtrght {
@@ -416,5 +416,10 @@ header .menu .btn {
   }
   #about .yellow {
     justify-content: flex-start;
+  }
+}
+@media (max-width: 576px) {
+  #about .box .textbox {
+    width: 70%;
   }
 }/*# sourceMappingURL=style.css.map */
