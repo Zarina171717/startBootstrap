@@ -494,17 +494,13 @@ header .menu .btn {
   cursor: auto;
 }
 @media (max-width: 992px) {
-  #our .box {
-    display: flex;
-    flex-direction: column;
-  }
-  #our .box .textbox {
-    margin-bottom: -10px;
+  #our .box ul {
+    margin-bottom: 50px;
   }
   #our .text-center {
     display: flex;
-    text-align: center;
-    width: 630px;
+    width: 670px;
+    margin-top: -50px;
   }
 }
 @media (max-width: 768px) {
@@ -516,6 +512,11 @@ header .menu .btn {
   }
   #our .text-center {
     width: 500px;
-    margin-top: -40px;
+    margin-top: -50px;
+  }
+}
+@media (max-width: 576px) {
+  #our .text-center {
+    width: 520px;
   }
 }/*# sourceMappingURL=style.css.map */
