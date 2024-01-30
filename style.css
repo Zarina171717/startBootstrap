@@ -430,8 +430,11 @@ header .menu .btn {
 #our {
   background-color: rgba(192, 192, 192, 0.1254901961);
 }
+#our .textbox {
+  text-align: center;
+}
 #our .textbox h3 {
-  font-size: 20px;
+  font-size: 19px;
   color: #6f7783;
   margin-top: 22px;
   margin-bottom: 55px;
@@ -480,8 +483,8 @@ header .menu .btn {
 #our .box ul li .icon i:hover {
   cursor: pointer;
 }
-#our .textbox p {
-  font-size: 20px;
+#our .text-center p {
+  font-size: 19px;
   color: #6f7783;
   line-height: 1.6;
   width: 810px;
@@ -489,4 +492,30 @@ header .menu .btn {
 }
 #our h1:hover, #our h3:hover, #our h2:hover, #our h4:hover, #our p:hover {
   cursor: auto;
+}
+@media (max-width: 992px) {
+  #our .box {
+    display: flex;
+    flex-direction: column;
+  }
+  #our .box .textbox {
+    margin-bottom: -10px;
+  }
+  #our .text-center {
+    display: flex;
+    text-align: center;
+    width: 630px;
+  }
+}
+@media (max-width: 768px) {
+  #our .textbox h3 {
+    margin-bottom: 60px;
+  }
+  #our .box ul {
+    margin-bottom: 50px;
+  }
+  #our .text-center {
+    width: 500px;
+    margin-top: -40px;
+  }
 }/*# sourceMappingURL=style.css.map */
