@@ -356,6 +356,9 @@ header .menu .btn {
 #about .yellow {
   justify-content: center;
 }
+#about h1:hover, #about h3:hover, #about h2:hover, #about p:hover, #about h5:hover {
+  cursor: auto;
+}
 @media (max-width: 992px) {
   #about .box {
     align-items: flex-start;
@@ -422,4 +425,68 @@ header .menu .btn {
   #about .box .textbox {
     width: 70%;
   }
+}
+
+#our {
+  background-color: rgba(192, 192, 192, 0.1254901961);
+}
+#our .textbox h3 {
+  font-size: 20px;
+  color: #6f7783;
+  margin-top: 22px;
+  margin-bottom: 55px;
+}
+#our .box .imgbox {
+  width: 220px;
+  border-radius: 50%;
+  border: 8px solid rgba(135, 129, 129, 0.1921568627);
+}
+#our .box .textbox {
+  text-align: center;
+  margin: 15px 0;
+}
+#our .box .textbox h2 {
+  font-size: 29px;
+  font-weight: 700;
+}
+#our .box .textbox h4 {
+  font-size: 20px;
+  color: #6f7783;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#our .box ul {
+  display: flex;
+  justify-content: center;
+}
+#our .box ul li {
+  margin: 10px;
+  background-color: #212529;
+  padding: 12px;
+  border-radius: 50px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+#our .box ul li:hover {
+  cursor: pointer;
+  background-color: #424649;
+}
+#our .box ul li .icon {
+  color: white;
+}
+#our .box ul li .icon i:hover {
+  cursor: pointer;
+}
+#our .textbox p {
+  font-size: 20px;
+  color: #6f7783;
+  line-height: 1.6;
+  width: 810px;
+  margin-top: 40px;
+}
+#our h1:hover, #our h3:hover, #our h2:hover, #our h4:hover, #our p:hover {
+  cursor: auto;
 }/*# sourceMappingURL=style.css.map */
