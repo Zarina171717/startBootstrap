@@ -301,7 +301,7 @@ header .menu .btn {
 #about .text-center h3 {
   font-size: 19px;
   color: #6f7783;
-  margin-top: 24px;
+  margin-top: 22px;
   margin-bottom: 50px;
 }
 #about .box {
@@ -316,12 +316,12 @@ header .menu .btn {
 }
 #about .box .textbox {
   width: 31%;
-  margin: 0 108px 0 108px;
+  margin: 0 108px 0;
 }
 #about .box .textbox h2 {
   font-weight: 700;
   font-size: 26px;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 #about .box .textbox p {
   font-size: 19px;
@@ -352,4 +352,74 @@ header .menu .btn {
   color: white;
   font-weight: 600;
   line-height: 1.4;
+}
+@media (max-width: 992px) {
+  #about .box {
+    align-items: flex-start;
+  }
+  #about .box .textbox {
+    margin: 0 40px 0;
+  }
+  #about .box .textbox h2 {
+    line-height: 1.2;
+  }
+  #about .bepart {
+    padding: 13px 16px;
+  }
+  #about .bepart .minibox {
+    width: 50px;
+  }
+  #about .bepart .minibox h5 {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 768px) {
+  #about .box {
+    align-items: flex-start;
+    margin-bottom: 100px;
+  }
+  #about .box .imgbox {
+    width: 16%;
+  }
+  #about .box .textbox {
+    width: 31%;
+    margin: 0 108px 0;
+  }
+  #about .box .textbox h2 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 6px;
+  }
+  #about .box .textbox p {
+    font-size: 19px;
+    color: #6f7783;
+    line-height: 1.4;
+  }
+  #about .box .imgcntr {
+    margin-left: auto;
+  }
+  #about .box .txtrght {
+    text-align: right;
+    margin-right: 55px;
+    flex-direction: ro;
+  }
+  #about .box .txtleft {
+    margin-left: 55px;
+  }
+  #about .bepart {
+    border: 5px solid #e9ecef;
+    border-radius: 50%;
+    padding: 33px 45px;
+    background-color: #ffc800;
+  }
+  #about .bepart .minibox {
+    width: 70px;
+  }
+  #about .bepart .minibox h5 {
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    line-height: 1.4;
+  }
 }/*# sourceMappingURL=style.css.map */
