@@ -312,7 +312,7 @@ header .menu .btn {
 #about .box .imgbox {
   border-radius: 50%;
   width: 13%;
-  border: 5px solid #e9ecef;
+  border: 9px solid #e9ecef;
 }
 #about .box .textbox {
   width: 31%;
@@ -339,7 +339,7 @@ header .menu .btn {
   margin-left: 55px;
 }
 #about .bepart {
-  border: 5px solid #e9ecef;
+  border: 7px solid #e9ecef;
   border-radius: 50%;
   padding: 33px 45px;
   background-color: #ffc800;
@@ -385,6 +385,7 @@ header .menu .btn {
   #about .box .textbox {
     width: 31%;
     margin: 0 108px 0;
+    flex-direction: row-reverse;
   }
   #about .box .textbox h2 {
     font-weight: 700;
@@ -402,7 +403,7 @@ header .menu .btn {
   #about .box .txtrght {
     text-align: right;
     margin-right: 55px;
-    flex-direction: ro;
+    flex-direction: row;
   }
   #about .box .txtleft {
     margin-left: 55px;
