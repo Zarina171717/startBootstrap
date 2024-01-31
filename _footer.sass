@@ -1,0 +1,33 @@
+footer
+    padding: 22px 0
+    .menu
+        a
+            color: #535151
+            font-size: 18px
+        span
+            margin: 0 20px
+        ul
+            display: flex
+            justify-content: center
+            li
+                .icon
+                    font-size: 17px
+                    width: 40px
+                    height: 40px
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    cursor: pointer
+                    background-color: #1a1919
+                    color: #ffff
+                    margin: 0 12px
+                    border-radius: 30px
+                    &:hover
+                        background-color: #424649
+                        transition: 0.5s
+    @media screen and ( max-width: 768px )
+        .menu
+            display: flex
+            flex-direction: column
+            ul
+                margin: 15px 0

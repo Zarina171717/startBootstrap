@@ -610,4 +610,45 @@ header .menu .btn {
   #contact .box h3 {
     font-size: 18px;
   }
+}
+
+footer {
+  padding: 22px 0;
+}
+footer .menu a {
+  color: #535151;
+  font-size: 18px;
+}
+footer .menu span {
+  margin: 0 20px;
+}
+footer .menu ul {
+  display: flex;
+  justify-content: center;
+}
+footer .menu ul li .icon {
+  font-size: 17px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #1a1919;
+  color: white;
+  margin: 0 12px;
+  border-radius: 30px;
+}
+footer .menu ul li .icon:hover {
+  background-color: #424649;
+  transition: 0.5s;
+}
+@media screen and (max-width: 768px) {
+  footer .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .menu ul {
+    margin: 15px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
