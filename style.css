@@ -648,8 +648,12 @@ footer .menu ul li .icon:hover {
   footer .menu {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   footer .menu ul {
-    margin: 15px 0;
+    margin: 20px 0;
+  }
+  footer .menu .privacy {
+    margin-left: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
