@@ -1,7 +1,6 @@
 #our
     background-color: #c0c0c020
     .textbox
-        text-align: center
         h3
             font-size: 19px
             color: #6f7783
@@ -26,50 +25,61 @@
         ul
             display: flex
             justify-content: center
+            margin-top: 25px
             li
-                margin: 10px
-                background-color: #212529
-                padding: 12px
-                border-radius: 50px
-                width: 40px
-                display: flex
-                justify-content: center
-                align-items: center
-                transition: 0.5s
                 &:hover
                     cursor: pointer
                     background-color: #424649
                 .icon
+                    font-size: 17px
+                    width: 40px
+                    height: 40px
+                    display: flex
+                    justify-content: center
+                    align-items: center
                     color: #ffff
-                    i
-                        &:hover
-                            cursor: pointer
-    .text-center
-        width: 65%
+                    margin: 0 12px
+                    border-radius: 30px
+                    background-color: #212529
+                    &:hover
+                        cursor: pointer
+                        transition: 0.5s
+    .textbox
         p
             font-size: 19px
             color: #6f7783
             line-height: 1.6
             margin-top: 40px
-    h1,h3,h2,h4,p
-        &:hover
-            cursor: auto
-    @media (max-width: 992px)
+    @media screen and ( max-width: 576px )
+        .textbox
+            p
+                font-size: 18px
         .box
             ul
-                margin-bottom: 50px
-        .text-center
-            width: auto
-            margin-top: -50px
-    @media (max-width: 768px)
+                li
+                    .icon
+                        font-size: 17px
+                        width: 35px
+                        height: 35px
+                        border-radius: 32px
+
+    @media screen and ( max-width: 768px )
         .textbox
             h3
-                margin-bottom: 60px
+                margin-bottom: 90px
+            p
+                padding: 0
         .box
             ul
                 margin-bottom: 50px
-        .text-center
-            margin-top: -50px
-    @media (max-width: 576px)
-        .text-center
-            width: auto
+                li
+                    .icon
+                        font-size: 17px
+                        width: 35px
+                        height: 35px
+                        border-radius: 32px
+
+    @media screen and ( max-width: 992px )
+        .textbox
+            p
+                font-size: 20px

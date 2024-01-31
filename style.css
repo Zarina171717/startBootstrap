@@ -430,9 +430,6 @@ header .menu .btn {
 #our {
   background-color: rgba(192, 192, 192, 0.1254901961);
 }
-#our .textbox {
-  text-align: center;
-}
 #our .textbox h3 {
   font-size: 19px;
   color: #6f7783;
@@ -461,63 +458,65 @@ header .menu .btn {
 #our .box ul {
   display: flex;
   justify-content: center;
-}
-#our .box ul li {
-  margin: 10px;
-  background-color: #212529;
-  padding: 12px;
-  border-radius: 50px;
-  width: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.5s;
+  margin-top: 25px;
 }
 #our .box ul li:hover {
   cursor: pointer;
   background-color: #424649;
 }
 #our .box ul li .icon {
+  font-size: 17px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
+  margin: 0 12px;
+  border-radius: 30px;
+  background-color: #212529;
 }
-#our .box ul li .icon i:hover {
+#our .box ul li .icon:hover {
   cursor: pointer;
+  transition: 0.5s;
 }
-#our .text-center {
-  width: 65%;
-}
-#our .text-center p {
+#our .textbox p {
   font-size: 19px;
   color: #6f7783;
   line-height: 1.6;
   margin-top: 40px;
 }
-#our h1:hover, #our h3:hover, #our h2:hover, #our h4:hover, #our p:hover {
-  cursor: auto;
-}
-@media (max-width: 992px) {
-  #our .box ul {
-    margin-bottom: 50px;
+@media screen and (max-width: 576px) {
+  #our .textbox p {
+    font-size: 18px;
   }
-  #our .text-center {
-    width: auto;
-    margin-top: -50px;
+  #our .box ul li .icon {
+    font-size: 17px;
+    width: 35px;
+    height: 35px;
+    border-radius: 32px;
   }
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   #our .textbox h3 {
-    margin-bottom: 60px;
+    margin-bottom: 90px;
+  }
+  #our .textbox p {
+    padding: 0;
   }
   #our .box ul {
     margin-bottom: 50px;
   }
-  #our .text-center {
-    margin-top: -50px;
+  #our .box ul li .icon {
+    font-size: 17px;
+    width: 35px;
+    height: 35px;
+    border-radius: 32px;
   }
 }
-@media (max-width: 576px) {
-  #our .text-center {
-    width: auto;
+@media screen and (max-width: 992px) {
+  #our .textbox p {
+    font-size: 20px;
   }
 }
 
