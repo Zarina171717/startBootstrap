@@ -484,7 +484,7 @@ header .menu .btn {
   cursor: pointer;
 }
 #our .text-center {
-  width: 62%;
+  width: 65%;
 }
 #our .text-center p {
   font-size: 19px;
@@ -500,8 +500,7 @@ header .menu .btn {
     margin-bottom: 50px;
   }
   #our .text-center {
-    display: flex;
-    width: 95%;
+    width: auto;
     margin-top: -50px;
   }
 }
