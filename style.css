@@ -519,4 +519,33 @@ header .menu .btn {
   #our .text-center {
     width: 520px;
   }
+}
+
+#sponsors {
+  padding: 60px 0;
+}
+#sponsors .box {
+  padding: 0 40px;
+}
+#sponsors .box .imgbox {
+  width: 120px;
+}
+#sponsors .box .microsoft {
+  width: 210px;
+}
+#sponsors .box .ibm {
+  width: 110px;
+}
+#sponsors .box .facebook {
+  width: 160px;
+}
+@media (max-width: 992px) {
+  #sponsors .box .microsoft {
+    width: 160px;
+  }
+}
+@media (max-width: 768px) {
+  #sponsors .box .imgbox {
+    line-height: 5;
+  }
 }/*# sourceMappingURL=style.css.map */
