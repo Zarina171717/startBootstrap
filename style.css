@@ -483,11 +483,13 @@ header .menu .btn {
 #our .box ul li .icon i:hover {
   cursor: pointer;
 }
+#our .text-center {
+  width: 62%;
+}
 #our .text-center p {
   font-size: 19px;
   color: #6f7783;
   line-height: 1.6;
-  width: 810px;
   margin-top: 40px;
 }
 #our h1:hover, #our h3:hover, #our h2:hover, #our h4:hover, #our p:hover {
@@ -499,7 +501,7 @@ header .menu .btn {
   }
   #our .text-center {
     display: flex;
-    width: 670px;
+    width: 95%;
     margin-top: -50px;
   }
 }
@@ -511,13 +513,12 @@ header .menu .btn {
     margin-bottom: 50px;
   }
   #our .text-center {
-    width: 500px;
     margin-top: -50px;
   }
 }
 @media (max-width: 576px) {
   #our .text-center {
-    width: 520px;
+    width: auto;
   }
 }
 
