@@ -551,7 +551,7 @@ header .menu .btn {
 }
 
 #contact {
-  background-image: url(assets/mapimage.png);
+  background-image: url(assets/map-image.png);
   background-color: #212529;
   background-position: center center;
 }
@@ -592,7 +592,9 @@ header .menu .btn {
   padding: 18px;
 }
 #contact .btn {
-  padding: 20px 40px;
+  font-size: 20px;
+  padding: 20px 45px;
+  font-weight: 700;
   background-color: #ffc021;
   opacity: 0.7;
   color: white;
