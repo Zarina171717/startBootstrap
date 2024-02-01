@@ -599,7 +599,6 @@ header .menu .btn {
 }
 @media screen and (max-width: 768px) {
   #contact .textbox {
-    margin-top: 15px;
     margin-bottom: 60px;
   }
 }
@@ -647,12 +646,8 @@ footer .menu ul li .icon:hover {
   footer .menu {
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
   footer .menu ul {
-    margin: 20px 0;
-  }
-  footer .menu .privacy {
-    margin-left: 20px;
+    margin: 15px 0;
   }
 }/*# sourceMappingURL=style.css.map */
